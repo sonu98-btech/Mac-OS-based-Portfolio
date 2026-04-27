@@ -1,0 +1,94 @@
+/**
+ * Developer Profile - Detailed Description
+ * Name: Sonu Kumar
+ * Role: Frontend Developer (Aspiring Full Stack Developer)
+ */
+
+type Project = {
+  name: string;
+  description: string;
+  techStack: string[];
+};
+
+type Developer = {
+  name: string;
+  role: string;
+  summary: string;
+  skills: string[];
+  technologies: string[];
+  projects: Project[];
+  learningJourney: string;
+  strengths: string[];
+  currentFocus: string;
+  futureGoals: string[];
+};
+
+const sonuKumar: Developer = {
+  name: "Sonu Kumar",
+
+  role: "Frontend Developer (Aspiring MERN Stack Developer)",
+
+  summary:
+    "I am a passionate and self-motivated frontend developer with a strong foundation in web technologies. I enjoy building clean, responsive, and user-friendly web applications. I have hands-on experience with modern JavaScript frameworks and continuously work on improving my development skills by building real-world projects. I am currently focused on transitioning into a full-stack developer using the MERN stack.",
+
+  skills: [
+    "HTML5 (Semantic Structure, Forms, Accessibility)",
+    "CSS3 (Flexbox, Grid, Responsive Design, Animations)",
+    "JavaScript (ES6+, DOM Manipulation, Events, Async/Await)",
+    "React (Components, Props, State, Hooks)",
+    "Git & GitHub (Version Control, Deployment)",
+    "Basic Problem Solving"
+  ],
+
+  technologies: [
+    "React",
+    "Vite",
+    "Context API",
+    "REST APIs",
+    "Axios",
+    "Browser DevTools"
+  ],
+
+  projects: [
+    {
+      name: "Contact Card Generator",
+      description:
+        "A web application that allows users to dynamically create and customize contact cards with a clean UI.",
+      techStack: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      name: "YouTube Premium UI Clone",
+      description:
+        "A UI clone of YouTube Premium focusing on layout design, responsiveness, and modern styling.",
+      techStack: ["HTML", "CSS"]
+    },
+    {
+      name: "E-Commerce Product Explorer",
+      description:
+        "A React-based application that fetches product data from an API, displays products, and shows detailed product pages with routing.",
+      techStack: ["React", "Vite", "Context API", "Axios"]
+    }
+  ],
+
+  learningJourney:
+    "I started my journey by learning the basics of HTML, CSS, and JavaScript. After building a strong foundation, I moved to React and started creating real-world projects. Currently, I am exploring backend development to become a complete MERN stack developer.",
+
+  strengths: [
+    "Quick learner and consistent practice",
+    "Strong interest in UI/UX design",
+    "Ability to build responsive layouts",
+    "Hands-on project-based learning approach"
+  ],
+
+  currentFocus:
+    "Improving React skills, learning backend (Node.js, Express), and building full-stack applications.",
+
+  futureGoals: [
+    "Become a professional MERN stack developer",
+    "Build scalable and production-ready applications",
+    "Contribute to open-source projects",
+    "Secure a job as a software developer"
+  ]
+};
+
+console.log("Detailed Developer Profile:", sonuKumar);

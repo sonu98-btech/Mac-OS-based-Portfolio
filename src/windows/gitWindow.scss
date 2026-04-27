@@ -1,0 +1,90 @@
+.github-card-container{
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2rem;
+    padding: 1.2rem;
+    overflow: visible;
+
+    &::-webkit-scrollbar {
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: rgb(251, 6, 6);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 0, 0, 0.5);
+        border-radius: 0.25rem;
+        border: 2px solid transparent;
+        background-clip: content-box;
+    }
+
+    .github-card{
+        width:19rem;
+        height: 25rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0.8rem;
+        gap: 0.8rem;
+        .gitmain{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            img{
+            width: 100%;
+            height: 8rem;
+            object-fit: cover;
+            background: center;           
+            border-radius: 0.65rem;
+        }
+          .card-title{
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: rgb(34, 34, 34);
+            white-space: nowrap;
+        }
+        
+         .card-description{
+            font-size: 0.9rem;
+            color: rgb(85, 85, 85);
+            flex-grow: 1;
+        }
+        }
+        .tags{
+            display: flex;
+            gap : 0.5rem;
+            flex-wrap: wrap;
+            .tag{
+                background-color: rgb(149, 188, 251);
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.25rem;
+                font-size: 0.8rem;
+                color: rgb(30, 27, 27);
+                white-space: nowrap;
+            }
+        }
+      .links{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        a{
+            text-decoration: none;
+            color: rgb(0, 121, 227);
+            background-color: rgb(255, 255, 255);
+            border-radius: 0.25rem;
+            font-size: 0.9rem;
+        }
+      }
+
+    }
+}        

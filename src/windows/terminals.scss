@@ -1,0 +1,20 @@
+.terminal-window{
+    background-color: black;
+    border-radius: 0.5rem;
+    height: 100% ;
+    color:rgb(141, 139, 136) !important;
+    overflow: auto;
+}
+div[name="react-console-emulator"]{
+    height: 100%;
+    background-color: black !important;
+
+    font-family: 'Cascadia Mono', 'Consolas', 'Menlo', 'Monaco', 'Courier New', monospace !important;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+div[name="react-console-emulator"] * {
+    font-family: 'Cascadia Mono', 'Consolas', 'Menlo', 'Monaco', 'Courier New', monospace !important;
+
+}   

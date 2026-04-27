@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "img": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+    "title": "Product Shop (React)",
+    "description": "A modern e-commerce product browsing application built with React, leveraging Context API for state management, React Router for navigation, and Axios for API integration.",
+    "tags": ["React", "Context API", "Axios", "API", "Frontend"],
+    "repoLink": "https://github.com/sonu98-btech/Product-Shop-Using-React-Js",
+    "demoLink": "https://product-shop-using-react-js-hesa-obgsxxjjd.vercel.app"
+  },
+  {
+    "id": 2,
+    "img": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+    "title": "React JS Learning Projects",
+    "description": "A curated collection of React-based exercises and mini-projects demonstrating core concepts such as components, hooks, state management, and reusable UI design.",
+    "tags": ["React", "JavaScript", "Practice"],
+    "repoLink": "https://github.com/sonu98-btech/React-js-Learning",
+    "demoLink": ""
+  },
+  {
+    "id": 3,
+    "img": "https://images.unsplash.com/photo-1586281380349-632531db7ed4",
+    "title": "Contact Card Generator",
+    "description": "A responsive web application that dynamically generates professional contact cards using React and Tailwind CSS with a focus on clean UI and user experience.",
+    "tags": ["React", "Tailwind", "UI"],
+    "repoLink": "https://github.com/sonu98-btech/Contact-Card-Generator",
+    "demoLink": "https://sonu98-btech.github.io/Contact-Card-Generator/"
+  },
+  {
+    "id": 4,
+    "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "First React Webpage",
+    "description": "An introductory project showcasing foundational skills in building responsive layouts using React and Tailwind CSS.",
+    "tags": ["React", "Tailwind", "Beginner"],
+    "repoLink": "https://github.com/sonu98-btech/First-Webpage-using-Reactjs-and-Tailwind",
+    "demoLink": ""
+  },
+  {
+    "id": 5,
+    "img": "https://images.unsplash.com/photo-1611162617474-5b21e879e113",
+    "title": "YouTube Premium Clone",
+    "description": "A pixel-inspired frontend clone of the YouTube Premium landing page, focusing on layout structuring and modern CSS styling techniques.",
+    "tags": ["HTML", "CSS", "Clone"],
+    "repoLink": "https://github.com/sonu98-btech/YT-premium",
+    "demoLink": "https://sonu98-btech.github.io/YT-premium/"
+  },
+  {
+    "id": 6,
+    "img": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b",
+    "title": "Weather App",
+    "description": "A lightweight weather application that fetches and displays real-time weather data using external APIs and JavaScript.",
+    "tags": ["JavaScript", "API", "Weather"],
+    "repoLink": "https://github.com/sonu98-btech/Weather-App",
+    "demoLink": ""
+  },
+  {
+    "id": 7,
+    "img": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b",
+    "title": "Weather Web App",
+    "description": "A user-friendly weather web application featuring API integration and responsive UI for displaying forecast information.",
+    "tags": ["JavaScript", "API", "Web App"],
+    "repoLink": "https://github.com/sonu98-btech/Weather-Web-App",
+    "demoLink": "https://sonu98-btech.github.io/Weather-Web-App/"
+  },
+  {
+    "id": 8,
+    "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    "title": "Len-Den (Expense Tracker)",
+    "description": "A simple expense tracking application designed to manage and monitor group financial transactions effectively.",
+    "tags": ["HTML", "Finance", "Utility"],
+    "repoLink": "https://github.com/sonu98-btech/Len-Den",
+    "demoLink": ""
+  },
+  {
+    "id": 9,
+    "img": "https://images.unsplash.com/photo-1581091012184-5c7b9f1c2b8b",
+    "title": "AI Medical Diagnostic System",
+    "description": "An AI-driven healthcare application developed in Python to assist in predicting medical conditions based on input data.",
+    "tags": ["Python", "AI", "Healthcare"],
+    "repoLink": "https://github.com/sonu98-btech/medai-diagnostic-system",
+    "demoLink": ""
+  },
+  {
+    "id": 10,
+    "img": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+    "title": "Group Expenses Tracker",
+    "description": "A web-based solution for efficiently recording and managing shared expenses among multiple users.",
+    "tags": ["HTML", "Web App"],
+    "repoLink": "https://github.com/sonu98-btech/Group-Expenses-Tracker",
+    "demoLink": ""
+  },
+  {
+    "id": 11,
+    "img": "https://images.unsplash.com/photo-1511512578047-dfb367046420",
+    "title": "Guess The Number Game",
+    "description": "An interactive command-line game developed in Python that challenges users to guess a randomly generated number.",
+    "tags": ["Python", "Game"],
+    "repoLink": "https://github.com/sonu98-btech/GUESS-THE-NUMBER-GAME",
+    "demoLink": ""
+  },
+  {
+    "id": 12,
+    "img": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+    "title": "C++ Assignments",
+    "description": "A compilation of C++ programming exercises covering fundamental concepts and problem-solving techniques.",
+    "tags": ["C++", "Practice"],
+    "repoLink": "https://github.com/sonu98-btech/ASSIGNMENT-CPP",
+    "demoLink": ""
+  },
+  {
+    "id": 13,
+    "img": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
+    "title": "Racing Game",
+    "description": "A browser-based racing game developed using HTML, CSS, and JavaScript with basic game mechanics and animations.",
+    "tags": ["JavaScript", "Game"],
+    "repoLink": "https://github.com/sonu98-btech/Racing-game",
+    "demoLink": ""
+  },
+  {
+    "id": 14,
+    "img": "https://images.unsplash.com/photo-1511512578047-dfb367046420",
+    "title": "Catch Me Game",
+    "description": "An engaging web-based mini game that demonstrates interactive DOM manipulation and event handling in JavaScript.",
+    "tags": ["JavaScript", "Game"],
+    "repoLink": "https://github.com/sonu98-btech/catch-me-sonu",
+    "demoLink": ""
+  },
+  {
+    "id": 15,
+    "img": "https://images.unsplash.com/photo-1509062522246-3755977927d7",
+    "title": "Course Website",
+    "description": "A basic educational website built with HTML and CSS, showcasing structured layout and styling fundamentals.",
+    "tags": ["HTML", "CSS"],
+    "repoLink": "https://github.com/sonu98-btech/mycoursewebsite",
+    "demoLink": ""
+  }
+]
