@@ -1,94 +1,213 @@
 /**
- * Developer Profile - Detailed Description
- * Name: Sonu Kumar
- * Role: Frontend Developer (Aspiring Full Stack Developer)
- */
+
+* Developer Profile - Detailed Description
+* Name: Sonu Kumar
+* Role: Full Stack MERN Developer
+  */
 
 type Project = {
-  name: string;
-  description: string;
-  techStack: string[];
+name: string;
+description: string;
+techStack: string[];
+keyFeatures: string[];
 };
 
 type Developer = {
-  name: string;
-  role: string;
-  summary: string;
-  skills: string[];
-  technologies: string[];
-  projects: Project[];
-  learningJourney: string;
-  strengths: string[];
-  currentFocus: string;
-  futureGoals: string[];
+name: string;
+role: string;
+summary: string;
+education: string;
+internship: string;
+skills: string[];
+technologies: string[];
+projects: Project[];
+learningJourney: string;
+strengths: string[];
+currentFocus: string;
+futureGoals: string[];
 };
 
 const sonuKumar: Developer = {
-  name: "Sonu Kumar",
+name: "Sonu Kumar",
 
-  role: "Frontend Developer (Aspiring MERN Stack Developer)",
+role: "Full Stack MERN Developer",
 
-  summary:
-    "I am a passionate and self-motivated frontend developer with a strong foundation in web technologies. I enjoy building clean, responsive, and user-friendly web applications. I have hands-on experience with modern JavaScript frameworks and continuously work on improving my development skills by building real-world projects. I am currently focused on transitioning into a full-stack developer using the MERN stack.",
+summary:
+"I am a Computer Science Engineering student and a full-stack developer with hands-on experience building web applications using React.js, Node.js, Express.js, MongoDB, and modern development tools. I have worked on real-world projects involving authentication, REST APIs, databases, real-time communication, AI integration, payments, image management, and responsive user interfaces. I enjoy understanding problems, designing complete application workflows, and continuously improving my development skills.",
 
-  skills: [
-    "HTML5 (Semantic Structure, Forms, Accessibility)",
-    "CSS3 (Flexbox, Grid, Responsive Design, Animations)",
-    "JavaScript (ES6+, DOM Manipulation, Events, Async/Await)",
-    "React (Components, Props, State, Hooks)",
-    "Git & GitHub (Version Control, Deployment)",
-    "Basic Problem Solving"
+education:
+"B.Tech in Computer Science and Engineering at Gulzar Group of Institution, 2023-2027.",
+
+internship:
+"Full Stack Developer Virtual Intern (AICTE), where I worked on full-stack web applications, responsive frontends, backend API integration, RESTful APIs, database integration, and frontend-backend connectivity.",
+
+skills: [
+"JavaScript (ES6+)",
+"C++",
+"Python",
+"TypeScript (Basic)",
+"React.js",
+"HTML5",
+"CSS3",
+"Tailwind CSS",
+"Context API",
+"Redux Toolkit",
+"Node.js",
+"Express.js",
+"REST APIs",
+"JWT Authentication",
+"OAuth",
+"Socket.IO",
+"MongoDB",
+"Mongoose",
+"Redis",
+"LangChain",
+"RAG (Basic)",
+"Git & GitHub",
+"Postman",
+"API Integration",
+"Problem Solving"
+],
+
+technologies: [
+"React.js",
+"Node.js",
+"Express.js",
+"MongoDB",
+"Mongoose",
+"Redux Toolkit",
+"Context API",
+"Tailwind CSS",
+"Socket.IO",
+"JWT",
+"Redis",
+"LangChain",
+"Razorpay",
+"ImageKit",
+"Multer",
+"Nodemailer",
+"Postman",
+"Git",
+"GitHub",
+"Render",
+"Vercel"
+],
+
+projects: [
+{
+name: "AI Assistant Platform",
+
+```
+  description:
+    "A full-stack AI assistant platform built using React.js, Node.js, Express.js, and MongoDB that enables real-time AI-powered conversations. The application includes an AI agent system with tool-calling capabilities and integrates multiple backend tools.",
+
+  techStack: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.IO",
+    "JWT",
+    "Redis",
+    "LangChain",
+    "Gemini",
+    "Mistral"
   ],
 
-  technologies: [
-    "React",
-    "Vite",
-    "Context API",
-    "REST APIs",
-    "Axios",
-    "Browser DevTools"
-  ],
-
-  projects: [
-    {
-      name: "Contact Card Generator",
-      description:
-        "A web application that allows users to dynamically create and customize contact cards with a clean UI.",
-      techStack: ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      name: "YouTube Premium UI Clone",
-      description:
-        "A UI clone of YouTube Premium focusing on layout design, responsiveness, and modern styling.",
-      techStack: ["HTML", "CSS"]
-    },
-    {
-      name: "E-Commerce Product Explorer",
-      description:
-        "A React-based application that fetches product data from an API, displays products, and shows detailed product pages with routing.",
-      techStack: ["React", "Vite", "Context API", "Axios"]
-    }
-  ],
-
-  learningJourney:
-    "I started my journey by learning the basics of HTML, CSS, and JavaScript. After building a strong foundation, I moved to React and started creating real-world projects. Currently, I am exploring backend development to become a complete MERN stack developer.",
-
-  strengths: [
-    "Quick learner and consistent practice",
-    "Strong interest in UI/UX design",
-    "Ability to build responsive layouts",
-    "Hands-on project-based learning approach"
-  ],
-
-  currentFocus:
-    "Improving React skills, learning backend (Node.js, Express), and building full-stack applications.",
-
-  futureGoals: [
-    "Become a professional MERN stack developer",
-    "Build scalable and production-ready applications",
-    "Contribute to open-source projects",
-    "Secure a job as a software developer"
+  keyFeatures: [
+    "Real-time AI-powered conversations",
+    "Real-time messaging using Socket.IO",
+    "AI agents using LangChain",
+    "Gemini and Mistral model integration",
+    "Tool-calling capabilities",
+    "Web search integration",
+    "Code execution",
+    "File management",
+    "Email automation",
+    "JWT authentication",
+    "Redis-based token blacklisting",
+    "Production deployment using Render"
   ]
+},
+
+{
+  name: "Aavran - Full-Stack E-Commerce Platform",
+
+  description:
+    "A full-stack e-commerce platform built using the MERN stack. The application provides product browsing, cart and checkout functionality, seller management, inventory management, dynamic pricing, secure authentication, and online payment processing.",
+
+  techStack: [
+    "React.js",
+    "Redux Toolkit",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+    "Razorpay",
+    "ImageKit",
+    "Multer",
+    "RESTful APIs"
+  ],
+
+  keyFeatures: [
+    "JWT-based authentication",
+    "Role-based authorization",
+    "Protected REST APIs",
+    "Product management",
+    "Product variants",
+    "Cart management",
+    "Order management",
+    "Seller management",
+    "Inventory management",
+    "Dynamic pricing",
+    "MongoDB aggregation pipelines",
+    "Cart total calculation",
+    "Variant-based pricing",
+    "GST calculation",
+    "Shipping charge calculation",
+    "Checkout summaries",
+    "Razorpay payment integration",
+    "Payment verification",
+    "Order status management",
+    "Image upload using Multer",
+    "Image optimization using ImageKit",
+    "Product search and filtering",
+    "Responsive UI"
+  ]
+}
+```
+
+],
+
+learningJourney:
+"I started my development journey by building a strong foundation in HTML, CSS, and JavaScript. I then moved to React.js and learned component-based development, state management, hooks, API integration, and responsive UI development. After strengthening my frontend skills, I moved into backend development with Node.js and Express.js, followed by MongoDB and Mongoose for database management. I then worked on authentication using JWT, real-time communication using Socket.IO, Redis, payment integration with Razorpay, image management, and AI integration using LangChain. My projects have helped me understand how frontend, backend, databases, authentication, third-party services, and deployment work together in a complete full-stack application.",
+
+strengths: [
+"Quick learner",
+"Consistent practice",
+"Strong problem-solving mindset",
+"Hands-on project-based learning",
+"Ability to understand complete application workflows",
+"Adaptable to new technologies",
+"Willingness to take ownership of tasks",
+"Strong interest in full-stack and AI-powered applications"
+],
+
+currentFocus:
+"Improving my full-stack MERN development skills, strengthening JavaScript and backend fundamentals, understanding scalable application architecture, and gaining deeper knowledge of authentication, databases, APIs, AI integration, and production deployment.",
+
+futureGoals: [
+"Become a highly skilled Full Stack MERN Developer",
+"Build scalable and production-ready applications",
+"Improve backend and system design skills",
+"Build AI-powered applications",
+"Contribute to real-world software projects",
+"Contribute to open-source projects",
+"Continuously learn modern development technologies",
+"Grow into a dependable software engineer"
+]
 };
 
 console.log("Detailed Developer Profile:", sonuKumar);
